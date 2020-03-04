@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\IT\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @frontendmasters/pet
+
+PATH: 
+  C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\IT\Desktop\Tony\FEM\brian\intro\v5\Adopt-Me\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.6\bin;C:\Users\IT\AppData\Local\Microsoft\WindowsApps;C:\Users\IT\AppData\Roaming\npm;C:\Users\IT\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Program Files\nodejs;C:\Users\IT\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.1\bin;
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\IT\Desktop\Tony\FEM\brian\intro\v5\Adopt-Me\node_modules\deasync\bin\win32-x64-node-12\deasync.node'
+
+npm manifest: 
+  {
+    "name": "adopt-me",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "format": "prettier \"src/**/*.{js,css,html}\" --write",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "dev": "parcel src/index.html"
+    },
+    "keywords": [],
+    "author": "toni-mg",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-eslint": "^10.1.0",
+      "eslint": "^6.8.0",
+      "eslint-config-prettier": "^6.10.0",
+      "eslint-plugin-import": "^2.20.1",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-react": "^7.18.3",
+      "parcel-bundler": "^1.12.4",
+      "prettier": "^1.19.1"
+    },
+    "dependencies": {
+      "react": "^16.13.0",
+      "react-dom": "^16.13.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
