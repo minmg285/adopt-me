@@ -13,7 +13,6 @@ export default function Pet({ name, animal, breed, location, id, media }) {
   }
   return (
     <a href={`/details/${id}`} className="pet">
-      More Details
       <div className="image-container">
         <img src={hero} alt={name} />
       </div>
@@ -22,6 +21,7 @@ export default function Pet({ name, animal, breed, location, id, media }) {
         <h2>
           {animal}-{breed}-{location}
         </h2>
+        More Details
       </div>
     </a>
   );

@@ -25,19 +25,21 @@ const App = () => {
     })
   ]);
    */
-  const themeHook = useState("darkblue");
+  const themeHook = useState("cyan");
   return (
     <React.StrictMode>
-      <div>
-        <header>
-          <Link to="/">Adopt Me</Link>
-        </header>
+      <ThemeContext.Provider value={themeHook}>
+        <div>
+          <header>
+            <Link to="/">Adopt Me</Link>
+          </header>
 
-        <Router>
-          <SearchParams path="/" />
-          <Details path="/details/:id" />
-        </Router>
-      </div>
+          <Router>
+            <SearchParams path="/" />
+            <Details path="/details/:id" />
+          </Router>
+        </div>
+      </ThemeContext.Provider>
     </React.StrictMode>
   );
 };
