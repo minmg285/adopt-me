@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { render } from "react-dom";
 import { Router, Link } from "@reach/router";
 import SearchParams from "./ParamSearch";
 import Details from "./Detail";
+import ThemeContext from "./ThemeContext";
 const App = () => {
   /**
    * return createElement("div", {}, [
@@ -24,6 +25,7 @@ const App = () => {
     })
   ]);
    */
+  const themeHook = useState("darkblue");
   return (
     <React.StrictMode>
       <div>
